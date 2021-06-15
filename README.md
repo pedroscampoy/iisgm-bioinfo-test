@@ -3,7 +3,7 @@ Aptitude test for IiSGM Microbial Genomics candidates
 
 ## Instructions
 
-You are required to calculate SNP distance between those 26 *M. tuberculosis* isolates provided.
+You are required to calculate SNP distance between those 26 *M. tuberculosis* isolates provided :microbe:.
 
 The input files are in VCF 4.2 format, obtained with [GATK](https://gatk.broadinstitute.org/), but all information about the parameters are included within the file.
 
