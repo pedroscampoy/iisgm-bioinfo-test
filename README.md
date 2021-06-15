@@ -53,17 +53,17 @@ Merge extracted information into a matrix to keep track of relevant info such as
 
 The preferred format is a binary Presence/Absence matrix
 
-### Iteration 5 | Calculate the SNP distance between all samples
+### Iteration 4 | Calculate the SNP distance between all samples
 
 Determine the pairwise distance between each pair of samples
 
-### Iteration 6 | BONUS - Include INDELS
+### Iteration 5 | BONUS - Include INDELS
 
 We have been using the term SNP distance but INDELS are also useful as phylogenetic marker
 
 Add subtle changes to the functions to include INDELS in the distance calculation
 
-### Iteration 7 | BONUS - Represent distance in a phylogenetic tree
+### Iteration 6 | BONUS - Represent distance in a phylogenetic tree
 
 You can represent this distance in a dendrogram, using any method you find suitable. 
 
