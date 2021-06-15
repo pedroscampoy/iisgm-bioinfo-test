@@ -44,7 +44,7 @@ Create a function to read a single VCF
 
 With the correct information analysed, filter the SNPs actually present on each sample, this can be a different function.
 
-### Iteration 3 | Combine SNP presence into a presence matrix
+### Iteration 3 | Combine present SNP into a presence matrix
 
 Merge extracted information into a matrix to keep track of relevant info such as:
 - sample name
