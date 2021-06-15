@@ -8,11 +8,11 @@ You are required to calculate SNP distance between those 26 *M. tuberculosis* is
 The input files are in VCF 4.2 format, obtained with [GATK](https://gatk.broadinstitute.org/), but all information about the parameters are included within the file.
 
 - [Python](https://www.python.org/) language **is required** to complete this test
-- [Pandas](https://pandas.pydata.org/) is strongly adviced
+- [Pandas library](https://pandas.pydata.org/) is strongly adviced
 
 ## Submission
 
-- You can send the asigment directly to pedroscampoy@gmail.com in whichever comprised format suits you
+- You can send the assignment directly to pedroscampoy@gmail.com in whichever comprised format suits you
 - Or you can create a pull request if you are familiar with github:
 
   - Fork this repo
@@ -40,13 +40,13 @@ Create a function to read a single VCF
 
 ### Iteration 2 | Extract relevant information from parsed VCF
 
-*M. tuberculosis* in an haployd organism but those were called (variant calling step) as diploid, hence you will see the usual diploid genotyping (0/0, 0/1, 1/1).
+*M. tuberculosis* in a haployd organism but those were called (variant calling step) as diploid, hence you will see the usual diploid genotyping (0/0, 0/1, 1/1).
 
-With the correct information analysed, filter the SNPs actualy present on each sample, this can be a different function.
+With the correct information analysed, filter the SNPs actually present on each sample, this can be a different function.
 
 ### Iteration 3 | Combine SNP presence into a presence matrix
 
-Merge estracted information into a matrix to keep track of relecant info such as:
+Merge extracted information into a matrix to keep track of relevant info such as:
 - sample name
 - Position
 - Mutation (Reference allele and Alternate allele)
@@ -61,10 +61,12 @@ Determine the pairwise distance between each pair of samples
 
 We have been using the term SNP distance but INDELS are also useful as phylogenetic marker
 
-Add sutle changes to the functions to include INDELS in the distance calculation
+Add subtle changes to the functions to include INDELS in the distance calculation
 
 ### Iteration 7 | BONUS - Represent distance in a phylogenetic tree
 
-You can represent this distance in a dendrogram.
+You can represent this distance in a dendrogram, using any method you find suitable. 
 
 To follow along with the matrix format and the use of python, you are encouraged to use [Scipy library](https://www.scipy.org/), specifically [linkage](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html#scipy.cluster.hierarchy.linkage) and [dendrogram](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html#scipy.cluster.hierarchy.dendrogram)
+
+# :muscle:
